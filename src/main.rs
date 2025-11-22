@@ -36,7 +36,7 @@ fn panic(_info: &PanicInfo) -> ! {
 }
 
 // Kernel entry point - receives boot information from bootloader
-fn kernel_main(boot_info: &'static BootInfo) -> ! {
+fn kernel_main(_boot_info: &'static BootInfo) -> ! {
     // Wait a moment to ensure bootloader has fully initialized
     // This might help avoid the page mapping conflict
     

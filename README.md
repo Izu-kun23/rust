@@ -7,17 +7,17 @@ A modern operating system written in Rust, designed to rival Apple's macOS with:
 
 ## 🎯 Goals
 
-- ✅ Memory-safe kernel (no use-after-free, buffer overflows, etc.)
-- ✅ Modern driver architecture
-- ✅ Secure system daemons
-- ✅ Zero-crash design philosophy
+- Memory-safe kernel (no use-after-free, buffer overflows, etc.)
+- Modern driver architecture
+- Secure system daemons
+- Zero-crash design philosophy
 
 ## 🏗️ Architecture
 
 ### Current Status (v0.1.0)
-- ✅ Bare-metal Rust kernel
-- ✅ VGA text mode display
-- ✅ Basic boot sequence
+-  Bare-metal Rust kernel
+-  VGA text mode display
+-  Basic boot sequence
 
 ### Roadmap
 - [ ] Memory management (paging, heap allocation)
@@ -78,7 +78,4 @@ This OS is built with security as a core principle:
 - Memory-safe by default
 - Modern cryptographic primitives
 
-## 🤝 Contributing
-
-This is an ambitious project! Contributions welcome as we build toward a production-ready OS.
 
